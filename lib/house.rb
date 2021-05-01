@@ -10,6 +10,7 @@ class House
             "This is the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
         elsif(lineNumber == 5)
             "This is the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
+        elsif(lineNumber == 6)
         end
     end
 end
