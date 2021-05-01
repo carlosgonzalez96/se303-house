@@ -4,6 +4,7 @@ class House
             "This is the house that Jack built.\n"
         elsif(lineNumber == 2)
             "This is the malt that lay in the house that Jack built.\n"
+        elsif(lineNumber == 3)
         end
     end
 end
