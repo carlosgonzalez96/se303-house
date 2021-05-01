@@ -1,5 +1,7 @@
 class House
     def line(lineNumber)
-        "This is the house that Jack built.\n"
+        if(lineNumber == 1)
+            "This is the house that Jack built.\n"
+        end
     end
 end
