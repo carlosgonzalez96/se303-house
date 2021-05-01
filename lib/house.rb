@@ -7,6 +7,7 @@ class House
         elsif(lineNumber == 3)
             "This is the rat that ate the malt that lay in the house that Jack built.\n"
         elsif(lineNumber == 4)
+            "This is the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
         end
     end
 end
