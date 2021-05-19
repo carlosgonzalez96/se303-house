@@ -3,6 +3,8 @@ class House
     def phrase(number)
         if number == 2
             "the malt that lay in "
+        elsif number == 3
+            "the rat that ate the malt that lay in "
         else
             ""
         end
