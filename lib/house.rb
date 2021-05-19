@@ -1,6 +1,7 @@
 class House
 
     def phrase(number)
+        "the malt that lay in "
     end
 
     def line(number)
