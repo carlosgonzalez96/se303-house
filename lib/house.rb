@@ -11,6 +11,8 @@ class House
             "the dog that worried the cat that killed the rat that ate the malt that lay in "
         elsif number == 6
             "the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in "
+        elsif number == 7
+            "the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay "
         else
             ""
         end
