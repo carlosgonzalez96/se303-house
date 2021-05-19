@@ -5,6 +5,8 @@ class House
             "the malt that lay in "
         elsif number == 3
             "the rat that ate the malt that lay in "
+        elsif number == 4
+            "the cat that killed the rat that ate the malt that lay in "
         else
             ""
         end
