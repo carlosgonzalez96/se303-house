@@ -5,12 +5,13 @@ class House
             "the malt that lay in "
         else
             ""
+        end
     end
 
     def line(number)
         case number
         when 1
-            "This is the house that Jack built.\n"
+            "This is #{phrase(number)}the house that Jack built.\n"
         when 2
             "This is #{phrase(number)}the house that Jack built.\n"
         when 3
