@@ -10,6 +10,7 @@ class House
             'the maiden all forlorn that milked',
             'the cow with the crumpled horn that tossed',
             'the dog that worried',
+            'the cat that killed',
 
         ]
     end
