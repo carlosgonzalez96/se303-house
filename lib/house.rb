@@ -2,7 +2,7 @@ class House
 
     def phrase
         [
-
+            'the horse and the hound and the horn that belonged to',
         ]
     end
 
