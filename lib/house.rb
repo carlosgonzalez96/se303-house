@@ -11,6 +11,7 @@ class House
             'the cow with the crumpled horn that tossed',
             'the dog that worried',
             'the cat that killed',
+            'the rat that ate',
 
         ]
     end
