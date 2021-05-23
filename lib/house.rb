@@ -1,5 +1,11 @@
 class House
 
+    def phrase
+        [
+
+        ]
+    end
+
     def phrase(number)
         if number == 2
             "the malt that lay in "
