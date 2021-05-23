@@ -8,6 +8,7 @@ class House
             'the priest all shaven and shorn that married',
             'the man all tattered and torn that kissed',
             'the maiden all forlorn that milked',
+            'the cow with the crumpled horn that tossed',
 
         ]
     end
