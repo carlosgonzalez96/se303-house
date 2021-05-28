@@ -27,3 +27,6 @@ class House
         ]
     end
 end
+
+class PirateTranslation
+end
