@@ -28,7 +28,7 @@ class House
     end
 end
 
-class PirateTranslation
+class PirateTranslation < House
     def prelude
         "Thar be"
     end
