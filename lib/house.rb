@@ -29,4 +29,7 @@ class House
 end
 
 class PirateTranslation
+    def prelude
+        "Thar be"
+    end
 end
