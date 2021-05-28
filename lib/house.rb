@@ -1,5 +1,9 @@
 class House
 
+    def prelude
+        "This is"
+    end
+
     def line(number)
         "This is %s.\n" % phrase.last(number).join(' ')
     end
