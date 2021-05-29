@@ -1,7 +1,7 @@
 class House
 
     def line(number)
-        "This is #{phrase.last(number).join(' ')}.\n"
+        "This is #{phrase.last(number).join(' ')}the house that Jack built.\n"
     end
 
     def recite
@@ -23,7 +23,7 @@ class House
             'the cat that killed',
             'the rat that ate',
             'the malt that lay in',
-            'the house that Jack built',
+            "",
         ]
     end
 end
