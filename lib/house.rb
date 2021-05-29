@@ -5,7 +5,11 @@ class House
     end
 
     def line(number)
-        "#{@prelude} #{phrase.last(number).join(' ')}the house that Jack built.\n"
+        "#{@prelude} #{linePiece(number)}the house that Jack built.\n"
+    end
+
+    def linePiece(number)
+        phrase.last(number).join(' ')
     end
 
     def recite
@@ -29,3 +33,4 @@ class House
         ]
     end
 end
+
