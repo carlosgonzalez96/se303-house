@@ -29,6 +29,3 @@ class House
         ]
     end
 end
-
-h = House.new("Thar be").recite
-puts h
