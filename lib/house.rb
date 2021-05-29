@@ -1,14 +1,16 @@
 class House
 
+    def initialize(prelude= "This is")
+        @prelude = prelude
+    end
+
     def line(number)
-        "This is #{phrase.last(number).join(' ')}the house that Jack built.\n"
+        "#{@prelude} #{phrase.last(number).join(' ')}the house that Jack built.\n"
     end
 
     def recite
         (1..phrase.length).map {|i| line(i)}.join("\n")
     end
-
-    private
 
     def phrase
         [
@@ -27,3 +29,6 @@ class House
         ]
     end
 end
+
+h = House.new("Thar be").recite
+puts h
