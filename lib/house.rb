@@ -1,7 +1,7 @@
 class House
 
     def line(number)
-        "This is %s.\n" % phrase.last(number).join(' ')
+        "This is #{phrase.last(number).join(' ')}.\n"
     end
 
     def recite
