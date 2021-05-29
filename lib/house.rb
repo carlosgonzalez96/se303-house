@@ -1,11 +1,7 @@
 class House
 
-    def prelude
-        "This is"
-    end
-
     def line(number)
-        "#{prelude} %s.\n" % phrase.last(number).join(' ')
+        "This is %s.\n" % phrase.last(number).join(' ')
     end
 
     def recite
@@ -29,11 +25,5 @@ class House
             'the malt that lay in',
             'the house that Jack built',
         ]
-    end
-end
-
-class PirateTranslation < House
-    def prelude
-        "Thar be"
     end
 end
