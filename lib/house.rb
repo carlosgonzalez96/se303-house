@@ -37,6 +37,8 @@ end
 
 
 class RandomHouse < House
-
+    def phrase
+        super.shuffle(random: Random.new(rand))
+    end
 end
 
