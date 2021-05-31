@@ -45,4 +45,12 @@ class RandomVerseHouse < House
         @verbs = ['that belonged to','that kept','that woke','that married','that kissed','that milked','that tossed','that worried','that killed','that ate','that lay in']
         @subjects =['the horse and the hound and the horn','the farmer sowing his corn','the rooster that crowed in the morn','the priest all shaven and shorn','the man all tattered and torn','the maiden all forlorn','the cow with the crumpled horn','the dog','the cat','the rat','the malt']
     end
+    
+    def line(number)
+        if (number == 1)
+            "#{@prelude} the house that Jack built.\n"
+        else
+            "#{@prelude} #{@subjects.last(number).join(' ')} #{@verbs.last(number).join(' ')} the house that Jack built.\n"
+        end
+    end
 end
